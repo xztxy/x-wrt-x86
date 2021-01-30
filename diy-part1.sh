@@ -15,5 +15,5 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-git clone https://github.com/Tencent-Cloud-Plugins/tencentcloud-openwrt-plugin-ddns
-cp -r /home/runner/work/x-wrt-x86/x-wrt-x86/tencentcloud-openwrt-plugin-ddns/tencentcloud_ddns /home/runner/work/x-wrt-x86/x-wrt-x86/openwrt/package
+#git clone https://github.com/Tencent-Cloud-Plugins/tencentcloud-openwrt-plugin-ddns
+#cp -r /home/runner/work/x-wrt-x86/x-wrt-x86/tencentcloud-openwrt-plugin-ddns/tencentcloud_ddns /home/runner/work/x-wrt-x86/x-wrt-x86/openwrt/package
